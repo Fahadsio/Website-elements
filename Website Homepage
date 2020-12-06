@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <title>Technical Shop- Buy Iphone, Macbook and more</title>
+        <style>
+            * {
+                font-family: Sofia Pro;
+                font-weight: 300;
+            }
+            body, ul, li {
+                margin: 0;
+                padding: 0;   
+            }
+            p, li, h1, h2, h3, h4 {
+                color: darkslategray;
+            }
+            body {
+                background-color: azure;
+            }
+            .wrapper {
+                width: 96%;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2%;
+            }
+            header {
+                background-color: papayawhip;
+                padding: 10px 0;
+            }
+            .logo {
+                margin: 0;
+                background: url(trading.png);
+                background-size: 70px 70px;
+                float: left;
+                width: 70px;
+                height: 70px;
+            }
+            header nav {
+                float: right;
+            }
+            header:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+            header nav li {
+                list-style-type: none;
+                float: left;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            header nav li a {
+                text-decoration: none;
+                color: darkslategray;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+            #main-banner {
+                width: 100%;
+                max-height: 500px;
+                overflow: hidden;
+            }
+            #main-banner img {
+                width: 100%;
+            }
+            #slider {
+                overflow: hidden;
+            }
+            #slides {
+                position: relative;
+                width: 500%;
+                margin: 0%;
+                left: 0%;
+                text-align: left;
+                font-size: 0;
+                animation: 18s slidy infinite;
+            }
+            #slides img {
+                width: 20%;
+                float: left;
+            }
+            #usp {
+                margin-top: 60px;
+            }
+            #usp li {
+                float: left;
+                width: 23%;
+                padding: 1%;
+                text-align: center;
+                list-style-type: none;
+            }
+            #usp li img {
+                height: 80px;
+                padding: 20px;
+                background-color: coral;
+                border-radius: 50%;
+            }
+            #usp li h2 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            #usp:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            #products {
+                padding-top: 30px;
+                margin-top: 30px;
+                border-top: 2px solid lightgrey;
+            }
+            #products li {
+                float: left;
+                width: 32%;
+                list-style-type: none;
+                text-align: center;
+            }
+            #products li img {
+                width: 100%;
+            }
+            #products li:nth-child(even) {
+                margin: 0 1%;
+            }
+            #products:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            #our-products {
+                text-align: center;
+            }
+            footer {
+                width: 100%;
+                background-color: darkslategray;
+                padding: 30px 0;
+                margin-top: 60px;
+            }
+            footer ul {
+                float: left;
+                width: 48%;
+                margin: 1%
+            }
+            footer ul h3 {
+                font-size: 30px;
+                color: azure;
+            }
+            footer ul li {
+                list-style-type: none;
+                font-size: 15px;
+                color: azure;
+            }
+            footer:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            /* Animation */
+            @keyframes slidy {
+                0% { left: 0%; }
+                28% { left: 0%; }
+                33% { left: 100%; }
+                61% { left: -100%; }
+                66% { left: -200%; }
+                94% { left: -200%; }
+                100% { left: 0%; }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header Starts -->
+        <header>
+            <div class="wrapper">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <li><a href="a">Home</a></li>
+                        <li><a href="a">About us</a></li>
+                        <li><a href="a">Products</a></li>
+                        <li><a href="a">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Header Ends -->
+        
+        <!-- Banner Starts -->
+        <div id="main-banner">
+            <div id="slider">
+                <div id="slides">
+                    <img src="technical-banner-for-website.jpg" alt="banner">
+                    <img src="banner%202.jpg" alt="banner">
+                    <img src="banner%203.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+        <!-- Banner Ends -->
+        
+        <!-- USP section starts -->
+        <div class="wrapper">
+            <section id="usp">
+                <ul>
+                    <li>
+                        <img src="iphone-12-black-select-2020.png">
+                        <h2>Wide Range of Products</h2>
+                    </li>
+                    <li>
+                        <img src="hqdefault.jpg">
+                        <h2>Multiple Stores</h2>
+                    </li>
+                    <li>
+                        <img src="customer-reviews-flat-vector-banner-template-happy-users-holding-golden-stars-cartoon-characters-customers-evaluating-performance-161813019.jpg">
+                        <h2>Happy Customers</h2>
+                    </li>
+                    <li>
+                        <img src="download.jpg">
+                        <h2>Satisfaction Guaranteed</h2>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- USP Section Ends -->
+        
+        <!-- Product Starts -->
+        <div class="wrapper">
+            <h2 id="our-products">Our Products</h2>
+            <ul>
+                <li>
+                    <img src="Iphone%2012.png">
+                    <h2>Iphone 12</h2>
+                    <p>A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all — in two perfect sizes.</p>
+                </li>
+                <li>
+                    <img src="Macbook%20Pro.png">
+                    <h2>Macbook Pro</h2>
+                    <p>The 16-inch MacBook Pro, introduced in November 2019, features a larger 16-inch Retina display, slimmer bezels, an updated keyboard with a scissor mechanism instead of a butterfly mechanism, up to 64GB RAM, up to 8TB of storage, and AMD Radeon Pro 5000M Series graphics cards.</p>
+                </li>
+                <li>
+                    <img src="Ipad%20Pro.png">
+                    <h2>Ipad Pro</h2>
+                    <p>It’s a magical piece of glass. It’s so fast most PC laptops can’t catch up. It has pro cameras that can transform reality. And you can use it with touch, pencil, keyboard and now trackpad. It’s the new iPad Pro.</p>
+                </li>
+            </ul>
+        </div>
+        <!-- Product Ends -->
+        
+        <!-- Footer Starts -->
+        <footer>
+            <div class="wrapper">
+                <ul>
+                    <h3>Get in Touch</h3>
+                    <li>Fahad's Technical Shop- Delhi, India</li>
+                    <li>Address- Shop no. 12, Omaxe Avenue</li>
+                    <li>Contact Today- +919953706106</li>
+                </ul>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_uQrJ0TkZlc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
